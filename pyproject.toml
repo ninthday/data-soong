@@ -8,6 +8,8 @@ packages = [{include = "data_soong"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+fastapi = "^0.96.0"
+uvicorn = "^0.22.0"
 
 
 [tool.poetry.group.dev.dependencies]
