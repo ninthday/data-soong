@@ -1,7 +1,7 @@
 version: 2
-authtoken:
+authtoken: <Your Authtoken>
 tunnels:
   fasapi:
-    addr: 8000
+    addr: web:8000
     proto: http
     host_header: localhost
