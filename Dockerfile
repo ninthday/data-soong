@@ -9,7 +9,7 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 
 # Copy the file with the requirements to the /code directory
-COPY ./requirements.txt /code/requirements.txt
+COPY ./requirements.txt ./main.py /code/
 
 # Install the package dependencies in the requirements file
 RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt \
